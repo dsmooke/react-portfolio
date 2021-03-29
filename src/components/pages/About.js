@@ -15,13 +15,10 @@ const About = () => (
     </div>
     <section
       id="aboutMe"
-      className="w3-main"
+      className="w3-container"
       style={{ marginLeft: 300 + "px" }}
     >
-      <div
-        className="w3-container w3-padding-large"
-        style={{ marginBottom: 32 + "px" }}
-      >
+      <div className="w3-container w3-padding-large">
         <h2>About Me</h2>
         <p>
           My name is Dana Smooke but everyone calls me Danny (make sure to spell
@@ -50,6 +47,7 @@ const About = () => (
       id="techSkills"
       className="w3-container w3-padding-large"
       style={{ margin: 20 + "px" }}
+      style={{ marginLeft: 300 + "px" }}
     >
       <h2>Technical Skills</h2>
       {/*<!-- Progress bars / Skills --> */}
