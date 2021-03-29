@@ -2,11 +2,17 @@ import React from "react";
 
 const Contact = () => (
   <div>
-    <div className="w3-container w3-padding-large w3-grey">
+    <div
+      className="w3-container w3-padding-large w3-grey"
+      style={{ marginLeft: 300 + "px" }}
+    >
       <h4 id="contact">
         <b>Contact Me</b>
       </h4>
-      <div className="w3-row-padding w3-center w3-padding-24">
+      <div
+        className="w3-row-padding w3-center w3-padding-24"
+        style={{ marginTop: 0 + "px", marginRight: -16 + "px" }}
+      >
         <div className="w3-third w3-dark-grey">
           <p>
             <i className="fa fa-envelope w3-xxlarge w3-text-light-grey"></i>
