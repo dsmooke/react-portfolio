@@ -3,6 +3,16 @@ import "../../App.css";
 
 const About = () => (
   <div>
+    {/*<!-- Images of Me -->*/}
+    <div className="w3-container w3-padding-large w3-center" id="about">
+      <div className="w3-col m12">
+        <img
+          src="../../../imgs/silhouette.JPG"
+          alt="Me"
+          style={{ width: 50 + "%", margin: 20 + "px" }}
+        />
+      </div>
+    </div>
     <section
       id="aboutMe"
       className="w3-main"
@@ -33,14 +43,13 @@ const About = () => (
             cooking, or drawing political cartoons.
           </p>
         </p>
-        <hr />
       </div>
     </section>
     {/*<!--Technical Skills-->*/}
     <section
       id="techSkills"
       className="w3-container w3-padding-large"
-      style={{ marginLeft: 300 + "px" }}
+      style={{ margin: 20 + "px" }}
     >
       <h2>Technical Skills</h2>
       {/*<!-- Progress bars / Skills --> */}
