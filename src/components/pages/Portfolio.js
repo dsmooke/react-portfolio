@@ -1,16 +1,17 @@
 import React from "react";
 
-const PortfolioWork = () => (
+const Portfolio = () => (
   <div>
     {/*<!-- !PAGE CONTENT! --></div>*/}
     <main className="w3-main" style={{ marginLeft: 300 + "px" }}>
       {/*<!-- Header -->*/}
       <header id="portfolio">
-        <a href="#">
+        <a href="./Portfolio.js">
           <img
             src="imgs/Smooke_Headshot.png"
             className="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"
             id="avatar"
+            alt="headshot"
           />
         </a>
         <span
@@ -38,10 +39,11 @@ const PortfolioWork = () => (
         <div className="w3-row-padding">
           <div className="w3-third w3-container w3-margin-bottom">
             <img
-              src="imgs/refactored-demo.png"
+              src="../../../imgs/refactored-demo.png"
               alt="go-for-launch"
-              style="width: 100%"
+              style={{ width: 100 + "%" }}
               className="w3-hover-opacity"
+              alt="launch"
             />
             <div className="w3-container w3-white">
               <p>
@@ -63,10 +65,11 @@ const PortfolioWork = () => (
           </div>
           <div className="w3-third w3-container w3-margin-bottom">
             <img
-              src="imgs/query_cuisine_pic_1.png"
+              src="../../../imgs/query_cuisine_pic_1.png"
               alt="github-QueryCuisine"
-              style="width: 100%"
+              style={{ width: 100 + "%" }}
               className="w3-hover-opacity"
+              alt="project"
             />
             <div className="w3-container w3-white">
               <p>
@@ -110,9 +113,250 @@ const PortfolioWork = () => (
             </div>
           </div>
         </div>
+
+        {/*<!--Second Photo Grid-->*/}
+        <div className="w3-row-padding">
+          <div className="w3-third w3-container w3-margin-bottom">
+            <img
+              src="../../../imgs/planner-demo.png"
+              alt="github-WorkdayPlanner"
+              style={{ width: 100 + "%" }}
+              className="w3-hover-opacity"
+            />
+            <div className="w3-container w3-white">
+              <p>
+                <b>Workday Planner</b>
+              </p>
+              <p>
+                A simple workday scheduler application that allows a user to
+                save events for each hour of the day.
+                <a
+                  href="https://github.com/dsmooke/workday-daily-planner"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div className="w3-third w3-container w3-margin-bottom">
+            <img
+              src="imgs/password-demo.png"
+              alt="github-PasswordGenerator"
+              style={{ width: 100 + "%" }}
+              className="w3-hover-opacity"
+            />
+            <div className="w3-container w3-white">
+              <p>
+                <b>Password Generator</b>
+              </p>
+              <p>
+                A note taker application that can be used to write, save, and
+                delete notes.
+                <a
+                  href="https://github.com/dsmooke/password-generator"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="w3-third w3-container w3-margin-bottom">
+            <img
+              src="imgs/burger-demo.png"
+              alt="github-Burger"
+              style={{ width: 100 + "%" }}
+              className="w3-hover-opacity"
+            />
+            <div className="w3-container w3-white">
+              <p>
+                <b>Eat-Da-Burger</b>
+              </p>
+              <p>
+                A restaurant app that lets users input the names of burgers
+                they'd like to eat. Each burger name that is submitted will be
+                stored in a database, regardless of whether or not the user
+                clicks the Devour it! button.
+                <a
+                  href="https://github.com/dsmooke/burger"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*<!--Theater Portfolio-->*/}
+      <section class="w3-container">
+        <h2 id="web-development">Theater</h2>
+        <div className="w3-section w3-bottombar w3-padding-16"></div>
+        {/*<!-- Third Photo Grid-->*/}
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="../../../imgs/Tenn_6.jpg"
+              alt="thst-costumes"
+              style={{ width: 100 + "%" }}
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p>
+                <b>Costume Design</b>
+              </p>
+              <p>
+                The overlap between fashion history and emotion, or how a
+                garment’s pattern, color, and texture can reveal a character’s
+                emotions, personality, and subtext. My costume trademarks
+                include the use of bold colors and simplicity in design.
+                <a
+                  href="https://www.danasmooke.com/theaterportfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View more.
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="../../../imgs/1776.jpg"
+              alt="thst-directing"
+              style={{ width: 100 + "%" }}
+              className="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p>
+                <b>Directing</b>
+              </p>
+              <p>
+                "In order to make them laugh you must understand what links us
+                all together. Comedy is universal."
+                <a
+                  href="https://www.danasmooke.com/theaterportfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View more.
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="w3-third w3-container">
+            <img
+              src="imgs/macbeth-prod2.jpg"
+              alt="thst-production"
+              style={{ width: 100 + "%" }}
+              className="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p>
+                <b>Production Design</b>
+              </p>
+              <p>
+                Senior Thesis in Production and Costume Design.
+                <a
+                  href="https://www.danasmooke.com/theaterportfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View more.
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*<!--Artwork Portfolio-->*/}
+      <section className="w3-container">
+        <h2 id="arts">Artwork</h2>
+        <div className="w3-section w3-bottombar w3-padding-16"></div>
+        {/*<!--Fourth Photo Grid-->*/}
+        <div className="w3-row-padding">
+          <div className="w3-third w3-container w3-margin-bottom">
+            <img
+              src="imgs/self-portrait.jpg"
+              alt="art-oil"
+              style={{ width: 100 + "%" }}
+              className="w3-hover-opacity"
+            />
+            <div className="w3-container w3-white">
+              <p>
+                <b>Oil</b>
+              </p>
+              <p>
+                Georgia O'Keefe style. Simple subjects but high contrast.
+                <a
+                  href="https://www.danasmooke.com/art-portfolio-1#/oil/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View works.
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div className="w3-third w3-container w3-margin-bottom">
+            <img
+              src="imgs/art-pencil.jpg"
+              alt="art-pencil"
+              style={{ width: 100 + "%" }}
+              className="w3-hover-opacity"
+            />
+            <div className="w3-container w3-white">
+              <p>
+                <b>Graphite Pencil</b>
+              </p>
+              <p>
+                Landscapes with surreal elements.
+                <a
+                  href="https://www.danasmooke.com/art-portfolio-1#/watercolor/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View works.
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="w3-third w3-container w3-margin-bottom">
+            <img
+              src="imgs/art-watercolor.jpg"
+              alt="art-oil"
+              style={{ width: 100 + "%" }}
+              className="w3-hover-opacity"
+            />
+            <div className="w3-container w3-white">
+              <p>
+                <b>Watercolor</b>
+              </p>
+              <p>
+                Bioluminescence inspiration.
+                <a
+                  href="https://www.danasmooke.com/art-portfolio-1#/watercolor-1/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View works.
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </div>
 );
 
-export default PortfolioWork;
+export default Portfolio;
