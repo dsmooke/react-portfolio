@@ -11,8 +11,8 @@ function NavTabs(props) {
         <br />
         <div className="w3-container">
           <a
-            href="#menu"
-            onClick={() => "w3_close()"}
+            href="/"
+            onClick={"w3_close()"}
             className="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
             title="close menu"
           >
@@ -29,9 +29,7 @@ function NavTabs(props) {
           <h4>
             <b>DANA SMOOKE</b>
           </h4>
-          <p className="w3-text-grey">Template by W3.CSS</p>
         </div>
-
         <div className="w3-bar-block">
           <div className="w3-bar-item w3-button w3-padding">
             <a
@@ -57,12 +55,10 @@ function NavTabs(props) {
               onClick={() => props.handlePageChange("Contact")}
               className={props.currentPage && "Contact"}
             >
-              <i className="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT{" "}
-              {/* @todo edit icons */}
+              <i className="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT
             </a>
           </div>
         </div>
-
         <div className="w3-panel w3-large">
           <i>
             <a
@@ -70,9 +66,8 @@ function NavTabs(props) {
               href="https://www.danasmooke.com/"
               rel="noreferrer"
               target="_blank"
-            >
-              Web
-            </a>
+              style={{ margin: 10 + "px" }}
+            ></a>
           </i>
           <i>
             <a
@@ -80,9 +75,8 @@ function NavTabs(props) {
               href="https://github.com/dsmooke"
               rel="noreferrer"
               target="_blank"
-            >
-              Github
-            </a>
+              style={{ margin: 10 + "px" }}
+            ></a>
           </i>
           <i>
             <a
@@ -90,19 +84,19 @@ function NavTabs(props) {
               href="https://www.linkedin.com/in/dana-smooke/"
               rel="noreferrer"
               target="_blank"
-            >
-              LinkedIn
-            </a>
+              style={{ margin: 10 + "px" }}
+            ></a>
           </i>
         </div>
 
         {/* Overlay effect when opening sidebar on small screens */}
         <div
           className="w3-overlay w3-hide-large w3-animate-opacity"
-          onClick="w3_close()"
+          onClick={"w3_close()"}
           title="close side menu"
           id="myOverlay"
         ></div>
+        <p className="w3-text-grey">Template by W3.CSS</p>
       </nav>
     </div>
   );

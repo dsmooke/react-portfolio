@@ -3,12 +3,12 @@ import React from "react";
 const Portfolio = () => (
   <div>
     {/*<!-- !PAGE CONTENT! --></div>*/}
-    <main className="w3-main" style={{ marginLeft: 300 + "px" }}>
+    <main className="w3-main " style={{ marginLeft: 300 + "px" }}>
       {/*<!-- Header -->*/}
       <header id="portfolio">
         <a href="./Portfolio.js">
           <img
-            src="imgs/Smooke_Headshot.png"
+            src="../../../imgs/Smooke_Headshot.png"
             className="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"
             id="avatar"
             alt="headshot"
@@ -24,20 +24,20 @@ const Portfolio = () => (
           <h1>
             <b>My Portfolio</b>
           </h1>
-          <div className="w3-section w3-padding-16"></div>
+          <div className="w3-section w3-padding-16 "></div>
         </div>
       </header>
 
       {/*<!--Web Development Portfolio-->*/}
 
-      <section className="w3-container">
+      <section className="w3-container ">
         <h2 id="web-development">Web Development</h2>
         <div className="w3-section w3-bottombar w3-padding-16"></div>
 
         {/*<!-- First Photo Grid-->*/}
 
-        <div className="w3-row-padding">
-          <div className="w3-third w3-container w3-margin-bottom">
+        <div className="w3-row-padding ">
+          <div className="w3-third w3-container w3-margin-bottom ">
             <img
               src="../../../imgs/refactored-demo.png"
               alt="go-for-launch"
@@ -79,7 +79,7 @@ const Portfolio = () => (
                 A simple food app that allows users to search for recipes based
                 on ingredients that they have on hand.
                 <a
-                  href="https://github.com/dsmooke/Query-Cuisine"
+                  href="https://jdavidrice.github.io/Query-Cuisine/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -103,7 +103,7 @@ const Portfolio = () => (
                 An application that generates book recommendations based on the
                 user's search and allows a user to save books to a wishlist.
                 <a
-                  href="https://github.com/dsmooke/super-duper-bookclub"
+                  href="https://super-duper-bookclub.herokuapp.com/?"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -131,7 +131,7 @@ const Portfolio = () => (
                 A simple workday scheduler application that allows a user to
                 save events for each hour of the day.
                 <a
-                  href="https://github.com/dsmooke/workday-daily-planner"
+                  href="https://dsmooke.github.io/workday-daily-planner/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -156,7 +156,7 @@ const Portfolio = () => (
                 A note taker application that can be used to write, save, and
                 delete notes.
                 <a
-                  href="https://github.com/dsmooke/password-generator"
+                  href="https://dsmooke.github.io/password-generator/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -182,7 +182,7 @@ const Portfolio = () => (
                 stored in a database, regardless of whether or not the user
                 clicks the Devour it! button.
                 <a
-                  href="https://github.com/dsmooke/burger"
+                  href="https://royale-with-cheese.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
