@@ -8,7 +8,7 @@ A refactored version of [Responsive Portfolio](https://github.com/dsmooke/respon
 
 This is the twentieth homework assignment for the UConn Coding Boot Camp curriculum.
 
-View the deployed application [here]()
+View the deployed application [here](https://dsmooke.github.io/react-portfolio/)
 
 ![demo](./public/imgs/react-portfolio-demo.png)
 
