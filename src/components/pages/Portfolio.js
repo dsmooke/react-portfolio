@@ -52,7 +52,15 @@ const Portfolio = () => (
               <p>
                 A refactored website whose source code was modified to improve
                 its operation without altering its functionality and to adhere
-                to accessibility standards by using Semantic HTML.
+                to accessibility standards by using Semantic HTML.View deployed
+                app
+                <a
+                  href="https://dsmooke.github.io/go-for-launch/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here.
+                </a>
                 <a
                   href="https://github.com/dsmooke/go-for-launch"
                   target="_blank"
@@ -77,13 +85,20 @@ const Portfolio = () => (
               </p>
               <p>
                 A simple food app that allows users to search for recipes based
-                on ingredients that they have on hand.
+                on ingredients that they have on hand. View deployed app
                 <a
                   href="https://jdavidrice.github.io/Query-Cuisine/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View on GitHub
+                  here.
+                </a>
+                <a
+                  href="https://github.com/dsmooke/Query-Cuisine"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View on GitHub.
                 </a>
               </p>
             </div>
@@ -102,6 +117,14 @@ const Portfolio = () => (
               <p>
                 An application that generates book recommendations based on the
                 user's search and allows a user to save books to a wishlist.
+                View deployed app
+                <a
+                  href="https://super-duper-bookclub.herokuapp.com/?"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here.
+                </a>
                 <a
                   href="https://super-duper-bookclub.herokuapp.com/?"
                   target="_blank"
@@ -129,9 +152,16 @@ const Portfolio = () => (
               </p>
               <p>
                 A simple workday scheduler application that allows a user to
-                save events for each hour of the day.
+                save events for each hour of the day. View deployed app
                 <a
                   href="https://dsmooke.github.io/workday-daily-planner/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here.
+                </a>
+                <a
+                  href="https://github.com/dsmooke/workday-daily-planner"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -154,14 +184,22 @@ const Portfolio = () => (
               </p>
               <p>
                 A note taker application that can be used to write, save, and
-                delete notes.
+                delete notes. View deployed app
                 <a
                   href="https://dsmooke.github.io/password-generator/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View on GitHub
+                  here.
                 </a>
+                <a
+                  href="https://github.com/dsmooke/password-generator"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+             View on GitHub
+                </a>
+                
               </p>
             </div>
           </div>
@@ -171,7 +209,7 @@ const Portfolio = () => (
               alt="github-Burger"
               style={{ width: 100 + "%" }}
               className="w3-hover-opacity"
-            />
+            /></div>
             <div className="w3-container w3-white">
               <p>
                 <b>Eat-Da-Burger</b>
@@ -180,9 +218,16 @@ const Portfolio = () => (
                 A restaurant app that lets users input the names of burgers
                 they'd like to eat. Each burger name that is submitted will be
                 stored in a database, regardless of whether or not the user
-                clicks the Devour it! button.
+                clicks the Devour it! button. View deployed app
                 <a
-                  href="https://royale-with-cheese.herokuapp.com/"
+                  href=" https://royale-with-cheese.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here.
+
+                <a
+                  href="https://github.com/dsmooke/burger"
                   target="_blank"
                   rel="noreferrer"
                 >
