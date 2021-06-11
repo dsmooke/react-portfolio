@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+  <title>Dana Smooke</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="w3style.css"/>
+
+  <body class="w3-light-grey w3-content" style="max-width: 1600px">
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" id="mySidebar">
+      <br />
+      <div class="w3-container">
+        <a
+          href="#"
+          onclick="w3_close()"
+          class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+          title="close menu"
+        >
+          <i class="fa fa-remove"></i>
+        </a>
+        <img id="sidebar-img"
+          src="imgs/Smooke_Headshot.jpeg"
+          class="w3-round"
+        /><br /><br />
+        <h4><b>DANA SMOOKE</b></h4>
+        <p class="w3-text-grey">Template by W3.CSS</p>
+      </div>
+      <div class="w3-bar-block">
+        <a
+          href="#about"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a
+        >
+        <a
+          href="#portfolio"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding w3-text-teal"
+          ><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a
+        >
+        <a
+          href="#contact"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a
+        >
+      </div>
+      <div class="w3-panel w3-large">
+        <i><a
+          class="fa fa-globe w3-hover-opacity"
+          href="https://www.danasmooke.com/" target="_blank"
+        ></a></i>
+        <i><a
+          class="fa fa-github w3-hover-opacity"
+          href="https://github.com/dsmooke"
+        ></a></i>
+        <i><a
+          class="fa fa-linkedin w3-hover-opacity"
+          href="https://www.linkedin.com/in/dana-smooke/"
+        ></a></i>
+      </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="w3-overlay w3-hide-large w3-animate-opacity"
+      onclick="w3_close()"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+
+    <!-- !PAGE CONTENT! -->
+    <main class="w3-main" style="margin-left: 300px">
+      <!-- Header -->
+      <header id="portfolio">
+        <a href="#"
+          ><img
+            src="imgs/Smooke_Headshot.png"
+            class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"
+            id="avatar"
+        /></a>
+        <span
+          class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"
+          onclick="w3_open()"
+          ><i class="fa fa-bars"></i
+        ></span>
+        <div class="w3-container">
+          <h1><b>My Portfolio</b></h1>
+          <div class="w3-section w3-padding-16"></div>
+        </div>
+      </header>
+
+      <!--Web Development Portfolio-->
+      <section class="w3-container">
+        <h2 id=web-development>Web Development</h2><div class="w3-section w3-bottombar w3-padding-16"></div>
+     
+    <!-- First Photo Grid-->
+      <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img
+            src="imgs/refactored-demo.png"
+            alt="go-for-launch"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Refactored Website: Semantic HTML</b></p>
+            <p>
+                A refactored website whose source code was modified to improve its operation without altering its functionality and to adhere to accessibility standards by using Semantic HTML.
+                <a href="https://github.com/dsmooke/go-for-launch" target="_blank">View on GitHub</a>
+            </p>
+          </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img
+            src="imgs/query_cuisine_pic_1.png"
+            alt="github-QueryCuisine"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Query Cuisine</b></p>
+            <p>
+                A simple food app that allows users to search for recipes based on ingredients that they have on hand.
+                <a href="https://github.com/dsmooke/Query-Cuisine" target="_blank">View on GitHub</a>
+                
+            </p>
+          </div>
+        </div>
+        <div class="w3-third w3-container">
+          <img
+            src="imgs/bookswap-recs-demo2.png"
+            alt="github-BookSwap"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Book Swap</b></p>
+            <p>
+                An application that generates book recommendations based on the user's search and allows a user to save books to a wishlist.
+                <a href="https://github.com/dsmooke/super-duper-bookclub" target="_blank">View on GitHub</a>
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+    <!--Second Photo Grid-->
+      <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img
+            src="imgs/planner-demo.png"
+            alt="github-WorkdayPlanner"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Workday Planner</b></p>
+            <p>
+                A simple workday scheduler application that allows a user to save events for each hour of the day.
+                <a href="https://github.com/dsmooke/workday-daily-planner" target="_blank">View on GitHub</a>
+
+            </p>
+          </div>
+        </div>
+      
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img
+            src="imgs/password-demo.png"
+            alt="github-PasswordGenerator"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Password Generator</b></p>
+            <p>
+              A note taker application that can be used to write, save, and delete notes.
+              <a href="https://github.com/dsmooke/password-generator" target="_blank">View on GitHub</a>
+
+            </p>
+          </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="imgs/burger-demo.png"
+              alt="github-Burger"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>Eat-Da-Burger</b></p>
+              <p>
+                A restaurant app that lets users input the names of burgers they'd like to eat. Each burger name that is submitted will be stored in a database, regardless of whether or not the user clicks the Devour it! button.
+              <a href="https://github.com/dsmooke/burger" target="_blank">View on GitHub</a>
+              
+              </p>
+            </div>
+          </div>
+      </div>
+      </section>
+
+      <!--Theater Portfolio-->
+      <section class="w3-container">
+      <h2 id=web-development>Theater</h2><div class="w3-section w3-bottombar w3-padding-16"></div>
+      <!-- Third Photo Grid-->
+      <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img
+            src="imgs/Tenn_6.jpg"
+            alt="thst-costumes"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Costume Design</b></p>
+            <p>
+                The overlap between fashion history and emotion, or how a garment’s pattern, color, and texture can reveal a character’s emotions, personality, and subtext. My costume trademarks include the use of bold colors and simplicity in design.
+                <a href="https://www.danasmooke.com/theaterportfolio" target="_blank">View more.</a>
+
+                
+            </p>
+          </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img
+            src="imgs/1776.jpg"
+            alt="thst-directing"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Directing</b></p>
+            <p>
+              "In order to make them laugh you must understand what links us all together. Comedy is universal."
+              <a href="https://www.danasmooke.com/theaterportfolio" target="_blank">View more.</a>
+
+          </div>
+        </div>
+        
+        <div class="w3-third w3-container">
+          <img
+            src="imgs/macbeth-prod2.jpg"
+            alt="thst-production"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Production Design</b></p>
+            <p>
+              Senior Thesis in Production and Costume Design.
+              <a href="https://www.danasmooke.com/theaterportfolio" target="_blank">View more.</a>
+
+            </p>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!--Artwork Portfolio-->
+      <section class="w3-container">
+        <h2 id=arts>Artwork</h2><div class="w3-section w3-bottombar w3-padding-16"></div>
+      <!--Fourth Photo Grid-->
+      <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img
+            src="imgs/self-portrait.jpg"
+            alt="art-oil"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Oil</b></p>
+            <p>
+                Georgia O'Keefe style. Simple
+                subjects but high contrast.
+                
+                <a href="https://www.danasmooke.com/art-portfolio-1#/oil/" target="_blank">View works.</a>
+                
+            </p>
+          </div>
+        </div>
+      
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img
+            src="imgs/art-pencil.jpg"
+            alt="art-pencil"
+            style="width: 100%"
+            class="w3-hover-opacity"
+          />
+          <div class="w3-container w3-white">
+            <p><b>Graphite Pencil</b></p>
+            <p>
+                Landscapes with surreal elements.
+
+                <a href="https://www.danasmooke.com/art-portfolio-1#/watercolor/" target="_blank">View works.</a>
+
+            </p>
+          </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="imgs/art-watercolor.jpg"
+              alt="art-oil"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>Watercolor</b></p>
+              <p>
+                Bioluminescence inspiration.
+
+                <a href="https://www.danasmooke.com/art-portfolio-1#/watercolor-1/" target="_blank">View works.</a>
+
+              </p>
+            </div>
+          </div>
+      </div>
+      </section>
+
+      <!-- Pagination -->
+      <!-- <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+          <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+      </div> -->
+
+      
+      <!-- Images of Me -->
+      <div class="w3-row-padding w3-padding-16" id="about">
+        <!-- <div class="w3-col m6">
+          <img src="imgs/Smooke_Headshot.png" alt="Me" style="width: 100%" />
+        </div> -->
+        <div class="w3-col m12">
+          <img src="imgs/silhouette.JPG" alt="Me" style="width: 100%" />
+        </div>
+      </div>
+
+      <!--About Me-->
+      <section id=aboutMe>
+      <div class="w3-container w3-padding-large" style="margin-bottom: 32px">
+        <h2><b>About Me</b></h2>
+        <p>
+            My name is Dana Smooke but everyone calls me Danny (make sure to spell it like a boy's name!). I am 25 years old, and I graduated from Yale University with a double major in Theater Studies and Art History. 
+            
+        <p>
+            I first got a taste for web design after I took a summer course on Adobe InDesign and Photoshop. I loved being able to add my own style to professional looking layouts.
+
+            When COVID-19 hit,the need for developers skyrocketed. It became clear that all schools would need to transition to some form of online teaching platform. I spent the summer converting my father's handwritten technical notes into PNG images by using LaTeX.I liked what I was doing and wanted to learn more.</p>
+
+          <p>
+            When I'm not in the theater or behind the computer, you can find me working outside in the yard, doing a crossword puzzle, working out, cooking, or drawing political cartoons.</p>
+        </p>
+        <hr />
+
+        <!--Technical Skills-->
+      <section id="techSkills">
+        <h2>Technical Skills</h3>
+        <!-- Progress bars / Skills --> 
+        <li>Visual & Performing Arts</li>
+        <li>Web Design</li>
+        <li>HTML & CSS</li>
+        <li>JavaScript & jQuery</li>
+        <li>Node.js, Express, MySQL</li>
+        <li>LaTeX</li>
+        <li>Adobe InDesign & Photoshop</li>
+       
+        <!--Download Resume-->
+        <p>
+          <a></a><button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom"><a  href="imgs/Coding-Resume-DSmooke.pdf" download="codingResumeDsmooke"><i class="fa fa-download w3-margin-right" ></i>Download Resume
+          </button></a>
+        </p>
+        <hr />
+
+      </section>
+    
+
+      <!-- Contact Section -->
+      <div class="w3-container w3-padding-large w3-grey">
+        <h4 id="contact"><b>Contact Me</b></h4>
+        <div
+          class="w3-row-padding w3-center w3-padding-24"
+          style="margin: 0 -16px">
+          <div class="w3-third w3-dark-grey">
+            <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+            <p>dana.smooke@gmail.com</p>
+          </div>
+           <div class="w3-third w3-teal">
+            <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+            <p><a href="" target="_blank">(203) 859-2677</a></p>
+          </div>
+          <div class="w3-third w3-dark-grey">
+            <p>
+              <i class="fa fa-github w3-xxlarge w3-text-light-grey"></i>
+            </p>
+            <p><a href="https://github.com/dsmooke" target="_blank">Follow on GitHub</a></p>
+          </div> 
+          <div class="w3-third w3-teal">
+            <p><i class="fa fa-linkedin w3-xxlarge w3-text-light-grey"></i></p>
+            <p><a href="https://www.linkedin.com/in/dana-smooke/" target="_blank">Connect on LinkedIn</a></p>
+          </div>
+        </div>
+        <hr class="w3-opacity" />
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-section">
+            <label>Name</label>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              name="Name"
+              required
+            />
+          </div>
+          <div class="w3-section">
+            <label>Email</label>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              name="Email"
+              required
+            />
+          </div>
+          <div class="w3-section">
+            <label>Message</label>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              name="Message"
+              required
+            />
+          </div>
+          <button type="submit" class="w3-button w3-black w3-margin-bottom">
+            <i class="fa fa-paper-plane w3-margin-right"></i>Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- Footer -->
+      <!-- <footer class="w3-container w3-padding-32 w3-dark-grey">
+        <div class="w3-row-padding">
+          <div class="w3-third">
+            <h3>FOOTER</h3>
+            <p>
+              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+              condimentum, porta lectus vitae, ultricies congue gravida diam non
+              fringilla.
+            </p>
+            <p>
+              Powered by
+              <a
+                href="https://www.w3schools.com/w3css/default.asp"
+                target="_blank"
+                >w3.css</a
+              >
+            </p>
+          </div>
+
+          <div class="w3-third">
+            <h3>BLOG POSTS</h3>
+            <ul class="w3-ul w3-hoverable">
+              <li class="w3-padding-16">
+                <img
+                  src="/w3images/workshop.jpg"
+                  class="w3-left w3-margin-right"
+                  style="width: 50px"
+                />
+                <span class="w3-large">Lorem</span><br />
+                <span>Sed mattis nunc</span>
+              </li>
+              <li class="w3-padding-16">
+                <img
+                  src="/w3images/gondol.jpg"
+                  class="w3-left w3-margin-right"
+                  style="width: 50px"
+                />
+                <span class="w3-large">Ipsum</span><br />
+                <span>Praes tinci sed</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="w3-third">
+            <h3>POPULAR TAGS</h3>
+            <p>
+              <span class="w3-tag w3-black w3-margin-bottom">Travel</span>
+              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
+                >New York</span
+              >
+              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
+                >London</span
+              >
+            </p>
+          </div>
+        </div>
+      </footer> -->
+
+      <div class="w3-black w3-center w3-padding-24">
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-opacity"
+          >w3.css</a
+        >
+      </div>
+
+      <!-- End page content -->
+    </main>
+
+    <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
