@@ -51,76 +51,34 @@ const About = () => (
     >
       <h2>Technical Skills</h2>
       {/*<!-- Progress bars / Skills --> */}
-      <p>Visual & Performing Arts</p>
-      <div className="w3-grey">
-        <div
-          className="w3-container w3-dark-grey w3-padding w3-center"
-          style={{ width: 99 + "%" }}
-        >
-          99%
-        </div>
-      </div>
-      <p>Web Design</p>
-      <div className="w3-grey">
-        <div
-          className="w3-container w3-dark-grey w3-padding w3-center"
-          style={{ width: 85 + "%" }}
-        >
-          85%
-        </div>
-      </div>
-      <p>HTML & CSS</p>
-      <div className="w3-grey">
-        <div
-          className="w3-container w3-dark-grey w3-padding w3-center"
-          style={{ width: 90 + "%" }}
-        >
-          90%
-        </div>
-      </div>
-      <p>JavaScript & jQuery</p>
-      <div className="w3-grey">
-        <div
-          className="w3-container w3-dark-grey w3-padding w3-center"
-          style={{ width: 80 + "%" }}
-        >
-          80%
-        </div>
-      </div>
-      <p>Node.js, Express, MySQL</p>
-      <div className="w3-grey">
-        <div
-          className="w3-container w3-dark-grey w3-padding w3-center"
-          style={{ width: 75 + "%" }}
-        >
-          75%
-        </div>
-      </div>
-      <p>LaTeX</p>
-      <div className="w3-grey">
-        <div
-          className="w3-container w3-dark-grey w3-padding w3-center"
-          style={{ width: 90 + "%" }}
-        >
-          90%
-        </div>
-      </div>
-      <p>Adobe InDesign & Photoshop</p>
-      <div className="w3-grey">
-        <div
-          className="w3-container w3-dark-grey w3-padding w3-center"
-          style={{ width: 75 + "%" }}
-        >
-          75%
-        </div>
-      </div>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+      <li>Bootstrap</li>
+      <li>Git & GitHub</li>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>React.js</li>
+      <li>Inquirer</li>
+      <li>APIs</li>
+      <li>DOM</li>
+      <li>MongoDB</li>
+      <li>MySQL</li>
+      <li>Sequelize</li>
+      <li>NoSQL/Mongoose</li>
+      <li>LaTeX</li>
+      <li>Adobe Photoshop & InDesign</li>
+      <li>QLab</li>
+      <li>Procreate</li>
+      <li>Visual & Performing Arts</li>
 
       {/*<!--Download Resume-->*/}
       <p>
         {/* <a></a> */}
         <button className="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
           <a
-            href="imgs/Coding Resume_DSmooke.pdf"
+            href="imgs/Coding-Resume-DSmooke.pdf"
             download="codingResumeDsmooke"
             rel="noreferrer"
           >
