@@ -197,9 +197,8 @@ const Portfolio = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-             View on GitHub
+                  View on GitHub
                 </a>
-                
               </p>
             </div>
           </div>
@@ -209,32 +208,32 @@ const Portfolio = () => (
               alt="github-Burger"
               style={{ width: 100 + "%" }}
               className="w3-hover-opacity"
-            /></div>
-            <div className="w3-container w3-white">
-              <p>
-                <b>Eat-Da-Burger</b>
-              </p>
-              <p>
-                A restaurant app that lets users input the names of burgers
-                they'd like to eat. Each burger name that is submitted will be
-                stored in a database, regardless of whether or not the user
-                clicks the Devour it! button. View deployed app
-                <a
-                  href=" https://royale-with-cheese.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  here.
-
-                <a
-                  href="https://github.com/dsmooke/burger"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View on GitHub
-                </a>
-              </p>
-            </div>
+            />
+          </div>
+          <div className="w3-container w3-white">
+            <p>
+              <b>Eat-Da-Burger</b>
+            </p>
+            <p>
+              A restaurant app that lets users input the names of burgers they'd
+              like to eat. Each burger name that is submitted will be stored in
+              a database, regardless of whether or not the user clicks the
+              Devour it! button. View deployed app
+              <a
+                href=" https://royale-with-cheese.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                here.
+              </a>
+              <a
+                href="https://github.com/dsmooke/burger"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View on GitHub
+              </a>
+            </p>
           </div>
         </div>
       </section>
