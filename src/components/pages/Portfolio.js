@@ -52,21 +52,22 @@ const Portfolio = () => (
               <p>
                 A refactored website whose source code was modified to improve
                 its operation without altering its functionality and to adhere
-                to accessibility standards by using Semantic HTML.View deployed
-                app
+                to accessibility standards by using Semantic HTML. Uses HTML and
+                CSS. View deployed app{" "}
                 <a
                   href="https://dsmooke.github.io/go-for-launch/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  here.
+                  here
                 </a>
+                . View on{" "}
                 <a
                   href="https://github.com/dsmooke/go-for-launch"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View on GitHub
+                  GitHub.
                 </a>
               </p>
             </div>
@@ -85,20 +86,23 @@ const Portfolio = () => (
               </p>
               <p>
                 A simple food app that allows users to search for recipes based
-                on ingredients that they have on hand. View deployed app
+                on ingredients that they have on hand. Uses HTML, CSS,
+                Spoonacular API, JavaScript, jQuery, and Bootstrap. View
+                deployed app{" "}
                 <a
                   href="https://jdavidrice.github.io/Query-Cuisine/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  here.
+                  here
                 </a>
+                . View on{" "}
                 <a
                   href="https://github.com/dsmooke/Query-Cuisine"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View on GitHub.
+                  GitHub.
                 </a>
               </p>
             </div>
@@ -116,21 +120,23 @@ const Portfolio = () => (
               </p>
               <p>
                 An application that generates book recommendations based on the
-                user's search and allows a user to save books to a wishlist.
-                View deployed app
+                user's search and allows a user to save books to a wishlist, .
+                Uses HTML, CSS, Google Books API, JavaScript, Node, Express,
+                MySQL, Sequelize, and Handlebars. View deployed app{" "}
                 <a
                   href="https://super-duper-bookclub.herokuapp.com/?"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  here.
+                  here
                 </a>
+                . View on{" "}
                 <a
-                  href="https://super-duper-bookclub.herokuapp.com/?"
+                  href="https://github.com/dsmooke/super-duper-bookclub"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View on GitHub
+                  GitHub.
                 </a>
               </p>
             </div>
@@ -152,20 +158,22 @@ const Portfolio = () => (
               </p>
               <p>
                 A simple workday scheduler application that allows a user to
-                save events for each hour of the day. View deployed app
+                save events for each hour of the day. Uses Javascript, jQuery,
+                Moment.js, Third-Party-APIs, and Bootstrap. View deployed app{" "}
                 <a
                   href="https://dsmooke.github.io/workday-daily-planner/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  here.
+                  here
                 </a>
+                . View on{" "}
                 <a
                   href="https://github.com/dsmooke/workday-daily-planner"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View on GitHub
+                  GitHub.
                 </a>
               </p>
             </div>
@@ -184,56 +192,60 @@ const Portfolio = () => (
               </p>
               <p>
                 A note taker application that can be used to write, save, and
-                delete notes. View deployed app
+                delete notes. Uses HTML, CSS, JavaScript, and Bootstrap. View
+                deployed app{" "}
                 <a
                   href="https://dsmooke.github.io/password-generator/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  here.
+                  here
                 </a>
+                . View on{" "}
                 <a
                   href="https://github.com/dsmooke/password-generator"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View on GitHub
+                  GitHub.
                 </a>
               </p>
             </div>
           </div>
           <div className="w3-third w3-container w3-margin-bottom">
             <img
-              src="imgs/burger-demo.png"
-              alt="github-Burger"
+              src="imgs/miro-webflow-covid-companion.png"
+              alt="github-Covid"
               style={{ width: 100 + "%" }}
               className="w3-hover-opacity"
             />
-          </div>
-          <div className="w3-container w3-white">
-            <p>
-              <b>Eat-Da-Burger</b>
-            </p>
-            <p>
-              A restaurant app that lets users input the names of burgers they'd
-              like to eat. Each burger name that is submitted will be stored in
-              a database, regardless of whether or not the user clicks the
-              Devour it! button. View deployed app
-              <a
-                href=" https://royale-with-cheese.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                here.
-              </a>
-              <a
-                href="https://github.com/dsmooke/burger"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View on GitHub
-              </a>
-            </p>
+
+            <div className="w3-container w3-white">
+              <p>
+                <b>COVID Companion</b>
+              </p>
+              <p>
+                An application that lets user share their Covid-19 status with
+                other users. Uses HTML, CSS, JavaScript, React, Express, AWS
+                Amplify, Moment.js, MongoDB, Mongoose, and Tachyons. View
+                deployed app{" "}
+                <a
+                  href="https://covid-companion21.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here
+                </a>
+                . View on{" "}
+                <a
+                  href="https://github.com/dsmooke/covid-companion"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub.
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </section>
