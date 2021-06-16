@@ -12,7 +12,7 @@ Refactored Responsive Portfolio to work with React.
 
 A refactored version of [Responsive Portfolio](https://github.com/dsmooke/responsive-portfolio) that utilizes React.
 
-View the deployed react application [here](https://dsmooke.github.io/responsive-portfolio/)
+View the deployed react application [here](https://dsmooke.github.io/react-portfolio/)
 
 ![demo](./public/imgs/react-portfolio-demo.png)
 
