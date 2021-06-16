@@ -2,6 +2,7 @@ import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Footer from "../src/components/pages/Footer";
 
+// import "./w3style.css";
 import "./App.css";
 
 const App = () => (
