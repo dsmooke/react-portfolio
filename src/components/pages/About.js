@@ -44,7 +44,6 @@ const About = () => (
     </section>
     {/*<!--Technical Skills-->*/}
     <section
-      id="techSkills"
       className="w3-container w3-padding-large"
       style={{ margin: 20 + "px" }}
       style={{ marginLeft: 300 + "px" }}
