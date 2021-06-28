@@ -4,7 +4,7 @@
 
 <a href="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"><img alt="M.I.T. License use" src="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"/></a>
 
- </span>
+</span>
  
 Refactored Responsive Portfolio to work with React.
 
