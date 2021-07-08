@@ -62,12 +62,15 @@ function NavTabs(props) {
         <div className="w3-panel w3-large">
           <i>
             <a
+              alt="globe"
               className="fa fa-globe w3-hover-opacity"
               href="https://www.danasmooke.com/"
               rel="noreferrer"
               target="_blank"
               style={{ margin: 10 + "px" }}
-            ></a>
+            >
+              {" "}
+            </a>
           </i>
           <i>
             <a
@@ -76,7 +79,9 @@ function NavTabs(props) {
               rel="noreferrer"
               target="_blank"
               style={{ margin: 10 + "px" }}
-            ></a>
+            >
+              {" "}
+            </a>
           </i>
           <i>
             <a
@@ -85,7 +90,9 @@ function NavTabs(props) {
               rel="noreferrer"
               target="_blank"
               style={{ margin: 10 + "px" }}
-            ></a>
+            >
+              {" "}
+            </a>
           </i>
         </div>
 

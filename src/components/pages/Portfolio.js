@@ -8,7 +8,7 @@ const Portfolio = () => (
       <header id="portfolio">
         <a href="./Portfolio.js">
           <img
-            src="../../../imgs/Smooke_Headshot.png"
+            src="/public/imgs/Smooke_Headshot.jpeg"
             className="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"
             id="avatar"
             alt="headshot"
@@ -39,11 +39,11 @@ const Portfolio = () => (
         <div className="w3-row-padding ">
           <div className="w3-third w3-container w3-margin-bottom ">
             <img
-              src="../../../imgs/refactored-demo.png"
+              src={"/public/imgs/refactored-demo.png"}
               alt="go-for-launch"
               style={{ width: 100 + "%" }}
               className="w3-hover-opacity"
-              alt="launch"
+              // alt="launch"
             />
             <div className="w3-container w3-white">
               <p>
@@ -74,11 +74,11 @@ const Portfolio = () => (
           </div>
           <div className="w3-third w3-container w3-margin-bottom">
             <img
-              src="../../../imgs/query_cuisine_pic_1.png"
+              src={"../../imgs/query_cuisine_pic_1.png"}
               alt="github-QueryCuisine"
               style={{ width: 100 + "%" }}
               className="w3-hover-opacity"
-              alt="project"
+              // alt="project"
             />
             <div className="w3-container w3-white">
               <p>
