@@ -39,7 +39,7 @@ const Portfolio = () => (
         <div className="w3-row-padding ">
           <div className="w3-third w3-container w3-margin-bottom ">
             <img
-              src={"imgs/refactored-demo.png"}
+              src="imgs/refactored-demo.png"
               alt="go-for-launch"
               style={{ width: 100 + "%" }}
               className="w3-hover-opacity"
@@ -147,7 +147,7 @@ const Portfolio = () => (
         <div className="w3-row-padding">
           <div className="w3-third w3-container w3-margin-bottom">
             <img
-              src="../../../imgs/planner-demo.png"
+              src="imgs/planner-demo.png"
               alt="github-WorkdayPlanner"
               style={{ width: 100 + "%" }}
               className="w3-hover-opacity"
