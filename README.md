@@ -8,9 +8,9 @@ Refactored Responsive Portfolio to work with React.
 
 ## Description
 
-A refactored version of [Responsive Portfolio](https://github.com/dsmooke/responsive-portfolio) that utilizes React.
+A personal portfolio highlighting work in web-development, studio art, and theater. This portfolio uses React and is a refactored version of the **Responsive Portfolio**. See original portfolio [here](https://github.com/dsmooke/responsive-portfolio). 
 
-View the deployed react application [here](https://dsmooke.github.io/react-portfolio/)
+View the deployed React application [here](https://dsmooke.github.io/react-portfolio/)
 
 ![demo](./public/imgs/react-portfolio-demo.png)
 
@@ -19,6 +19,9 @@ View the deployed react application [here](https://dsmooke.github.io/react-portf
 - React
 - Node.js
 - w3schools template
+- HTML
+- JavaScript
+- CSS
 
 ## Requirements
 
